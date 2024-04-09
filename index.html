@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ToDo List</title>
+    <link rel="icon" href="icon.png">
+
+    <link rel='stylesheet' href='style.css'>
+    <script src='main.js'></script>
+
+</head>
+
+<body onload="load()">
+    <div class="container">
+        <h1 onmouseover="color(this)" class="wh">To<span class="vio">Do</span> List</h1>
+
+        <div class="frame" id="frame">
+            <form class="add-task">
+                <input type="text" id="newTask" placeholder="add a new task">
+                <input type="button" class="btn" value="add" onclick="addTask()">
+                <!-- <input type="button" class="btn" value="clear" onclick="clearAll()"> -->
+            </form>
+
+            <div class="list" id="list">
+
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
